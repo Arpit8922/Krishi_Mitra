@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cropyieldprediction.css">
+    <title>Crop Yield Prediction</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Crop Yield Prediction</h1>
+        </div>
+    </header>
+
+    <section class="prediction">
+        <div class="container">
+            <h2>Predict Crop Yield</h2>
+            <p>Enter details below to predict the crop yield for your farm.</p>
+            <form>
+                <label for="crop">Select Crop:</label>
+                <select id="crop" name="crop" required>
+                    <option value="wheat">Wheat</option>
+                    <option value="rice">Rice</option>
+                    <option value="corn">Corn</option>
+                </select>
+
+                <label for="area">Enter Farm Area (in acres):</label>
+                <input type="number" id="area" name="area" min="1" required>
+
+                <label for="weather">Select Weather Condition:</label>
+                <select id="weather" name="weather" required>
+                    <option value="sunny">Sunny</option>
+                    <option value="rainy">Rainy</option>
+                    <option value="cloudy">Cloudy</option>
+                </select>
+
+                <button type="submit">Predict Yield</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="results" id="resultsSection">
+        <div class="container">
+            <!-- Results will be displayed here -->
+        </div>
+    </section>
+
+    
+
+</body>
+</html>

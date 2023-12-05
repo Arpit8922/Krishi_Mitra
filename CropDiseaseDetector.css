@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-justify: auto;
+    text-align: center;
+}
+
+.hero {
+    background-image: url(/image/4.jpg); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.hero h2 {
+    font-size: 3.0em;
+    margin-bottom: 50px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.upload-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-section input {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.upload-section button {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-section button:hover {
+    background-color: #69cf6f;
+}
+
+.results {
+    background-color: #f4f4f4;
+    padding:  0;
+    text-align: center;
+}
+
