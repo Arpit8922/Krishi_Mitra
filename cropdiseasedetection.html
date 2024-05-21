@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CropDiseaseDetector.css">
+    <title>Crop Disease Detector</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Crop Disease Detector</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Identify Crop Diseases with Ease</h2>
+                <p>Upload an image of your crop to detect and diagnose diseases.</p>
+                <div class="upload-section">
+                    <input type="file" accept="image/*" id="imageInput">
+                    <button onclick="uploadImage()">Upload Image</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="results" id="resultsSection">
+        <div class="container">
+            <!-- Results will be displayed here -->
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
